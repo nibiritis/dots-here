@@ -4,21 +4,20 @@
         "padding": {
             "top": 2
         },
-        "type": "small"
+      //  "type": "small"
     },
     "display": {
-        "separator": " -> "
+        "separator": " 󰧂  "
     },
     "modules": [
         "break",
         {
-            "type": "title",
-            "keyWidth": 10,
-			"format": "         {6}{7}{8}"
+            "type": "custom",
+      			"format": "\u001b[36m 󰣇 ~ Donlyone7 uses Arch BTW"
         },
         {
             "type": "custom",
-            "format": "┌──────────────────────────────────┐"
+            "format": "┌───────────────────────────┐"
         },
         {
             "type": "kernel",
@@ -29,24 +28,35 @@
             "type": "wm",
             "key": " ",
             "keyColor": "blue"
-        },
+        }, 
         {
             "type": "shell",
             "key": " ",
             "keyColor": "yellow"
         },
         {
-            "type": "terminal",
-            "key": " ",
+            "type": "custom",
+            "format": "└───────────────────────────┘" 
+        },
+        /*{
+            "type": "packages"
+            "key": " ",
             "keyColor": "blue"
         },
-        /*
+        */
+        {
+            "type": "custom",
+            "format": " "
+        },
+        {
+            "type": "custom",
+            "format": "┌───────────────────────────┐"
+        },
         {
             "type": "packages",
             "key": "󰏖 ",
             "keyColor": "yellow"
         },
-        */
         {
             "type": "memory",
             "key": "󰍛 ",
@@ -61,11 +71,11 @@
         },
         {
             "type": "custom",
-            "format": "└──────────────────────────────────┘"
+            "format": "└───────────────────────────┘"
         },
         {
             "type": "colors",
-            "paddingLeft": 2,
+            "paddingLeft": 7,
             "symbol": "circle"
         },
     "break",
