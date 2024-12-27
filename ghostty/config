@@ -1,0 +1,16 @@
+theme = GruvboxDarkHard
+font-family = CaskaydiaCove Nerd Font Mono
+font-size = 14
+font-style-bold = true
+cursor-color = #D3C6AA
+cursor-style = block
+cursor-style-blink = true
+background-opacity = 0.8
+background-blur-radius = 20
+window-padding-x = 11
+window-padding-y = 11
+window-decoration = true
+focus-follows-mouse = true
+clipboard-read = allow
+clipboard-write = allow
+copy-on-select = true
