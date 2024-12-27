@@ -1,8 +1,9 @@
 if status is-interactive
     starship init fish | source
+    zoxide init fish | source
 end
 
-fastfetch --logo Sabotage
+fastfetch
 
 # alias
 
@@ -15,3 +16,4 @@ alias manga='fastanime --manga search -t'
 alias n='nvim'
 alias g='cd GitHub/'
 alias gc='git clone'
+alias cd='z'
